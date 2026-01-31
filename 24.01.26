@@ -1,0 +1,19 @@
+# на 3
+#import math
+#from math import *
+#a=float(input('Enter a: '))
+#b=float(input('Enter b: '))
+#x=float(input('Enter x: '))
+#y=float(input('Enter y: '))
+#z=((sqrt(x+b-a))+(math.ceil(y)))/(atan(b+a))
+#print("{:7.7f})".format(z))
+
+# на 5
+from math import sqrt
+C = 10**(-6)
+L = 0.04
+U = 100
+I = U * sqrt(C/L)
+W = (L*(I)**2) / 2
+print("W=" "{:7.2f}".format(W), "Дж")
+print("I=" "{:7.2f}".format(I), "Амп")
