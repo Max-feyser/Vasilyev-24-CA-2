@@ -1,0 +1,29 @@
+print("Контрольный пример: 1, 2, 3, -4, 5, -2, 0")
+
+print("Цикл while")
+
+test = [1, 2, 3, -4, 5, -2, 0]
+
+f = 1
+e = 0
+num = test [e]
+
+while num != 0:
+    f *= num
+    e += 1
+    num = test [e]
+
+print("Произведение чисел до нуля:", f)
+
+print("Цикл do-while")
+f = 1
+e = 0
+
+while True:
+    num = test [e]
+    if num == 0:
+        break
+    f *= num
+    e += 1
+
+print("Произведение чисел до нуля:", f)
