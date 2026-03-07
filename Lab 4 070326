@@ -1,0 +1,14 @@
+#Почему-то выдает ошибку когда пишу "isPrime", а не "is_prime"
+def is_prime(n):
+    if n < 2:
+        return False
+    for i in range(2, int(n ** 0.5) + 1):
+        if n % i == 0:
+            return False
+    return True
+m = int(input("Введите число: "))
+result = is_prime(m)
+if result:
+    print(f"Число {m} является простым")
+else:
+    print(f"Число {m} не является простым")
