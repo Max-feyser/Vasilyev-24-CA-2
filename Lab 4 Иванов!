@@ -1,0 +1,7 @@
+####Иванов
+import math
+
+x, y = map(float, input("Координаты X и Y: ").split())
+distance = math.sqrt(x**2 + y**2)
+
+print(f"Расстояние от точки ({x}, {y}) до начала координат: {distance:.2f}")
